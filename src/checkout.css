@@ -1,0 +1,73 @@
+.checkout {
+	display: flex;
+	margin: 0 .8rem;
+}
+.checkout_items {
+	margin: 0 0.5rem;
+}
+.checkout_Banner_image {
+	width: 100%;
+	object-fit: contain;
+	mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+	margin: .5rem 0
+}
+.checkoutProduct {
+	display: flex;
+	margin-top: 0.5rem;
+	background: white;
+}
+.checkoutProduct__info {
+	padding-left: 1.2rem;
+}
+.checkoutProduct__title {
+	font-weight: 800;
+	font-size: 1rem;
+}
+.CheckoutProduct__rating {
+	display: flex;
+}
+.checkoutProduct__image {
+	width: 11.25rem;
+	height: 11.25rem;
+	object-fit: contain;
+}
+.checkoutProduct__info > button {
+	background: #f0c14b;
+	border: 1px solid;
+	border-color: #a88734 #9c7e31 #846a29;
+	padding: 0.3rem;
+	margin: 1rem 0;
+}
+.checkout__title {
+	border-bottom: 1px solid rgb(177, 174, 174);
+	padding-bottom: 0.5rem;
+}
+.checkout__messageBox {
+	margin: 0 0.5rem;
+}
+.checkout__left{
+	margin-top: none;
+}
+.checkout__right {
+	
+	width: 70%;
+	margin:1rem
+}
+@media screen and (max-width: 675px) {
+	.checkout {
+		flex-direction: column;
+	}
+	.checkout__left {
+		order: 2;
+		
+	}
+	.addMarginTop{
+		margin-top: 8rem;
+
+	}
+	.checkout__right {
+		order: 1;
+		width:60%;
+		margin: .2rem auto;
+	}
+}

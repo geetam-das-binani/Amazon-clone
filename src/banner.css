@@ -1,0 +1,21 @@
+.banner_image {
+	width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+	object-fit: contain;
+	margin-bottom: -9.4rem;
+	z-index: -1;
+}
+.home__row {
+	display: flex;
+	margin: 1rem;
+	justify-content: space-around;
+	z-index: 1;
+}
+@media screen and (max-width: 675px) {
+	.banner_image {
+		
+		margin-bottom: -3.125rem;
+	
+		
+	}
+}
